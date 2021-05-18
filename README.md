@@ -52,9 +52,9 @@ Do not add/edit implementation code outside “controller” package.
 3.1. Gradle
 
 Remember that gradle commands can be executed in three different ways:
-1. When you have Gradle installed: gradle 'command'
+1. When you have Gradle installed: gradle \<command>
 2. When working on Windows command line or PowerShell: gradlew.bat \<command>
-3. When working on MacOS, Linux or Windows 10 Shell: ./gradlew <command>
+3. When working on MacOS, Linux or Windows 10 Shell: ./gradlew \<command>
 In current guide all examples will use the first format that you can adapt if needed.
 
 3.2. Tests
