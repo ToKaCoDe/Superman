@@ -2,6 +2,7 @@
 Java task
 
 1. The Story
+
 In the year 2040 and during your annual alumni meeting at the university you and your friends
 were wandering around the university recollecting old memories. During your walk and lots of
 laughs, you found the mysterious room that you all were always wondering what’s inside and never
@@ -20,6 +21,7 @@ him underwater. You set up some targets underwater at Smithville lake, and train
 nighttime.
 
 2. Assignment
+
 Targets are scattered underwater on a specific area that resembles the city map. Using some
 advanced equipment from the future, you’ll tracks his movement and give him voice commands to
 reach the different targets.
@@ -46,13 +48,17 @@ Target is collected when Clark coordinates are not further than 2m from the targ
 Do not add/edit implementation code outside “controller” package.
 
 3. Set Up
+
 3.1. Gradle
+
 Remember that gradle commands can be executed in three different ways:
 1. When you have Gradle installed: gradle <command>
 2. When working on Windows command line or PowerShell: gradlew.bat <command>
 3. When working on MacOS, Linux or Windows 10 Shell: ./gradlew <command>
 In current guide all examples will use the first format that you can adapt if needed.
+
 3.2. Tests
+
 We have provided you a set of unit tests to simplify development of the controller code (You
 class). We recommend using your IDE to execute the tests that have been provided but you can
 do it from the command line as well. Also, feel free to add more unit tests, if required
